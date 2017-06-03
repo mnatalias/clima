@@ -1,0 +1,78 @@
+@import "https://fonts.googleapis.com/css?family=Quicksand:300,500|Raleway:700";
+* {
+  text-align: center; }
+
+h1 {
+  text-transform: uppercase;
+  font-size: 45px;
+  margin: 40px 0 10px 0;
+  color: #FFFFFF;
+  padding: 0 20px 0 20px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300; }
+
+#clima, #tempC, #tempF {
+  color: white;
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); }
+
+#tempF, #degC {
+  display: none;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); }
+
+#boton {
+  margin: 70px 0 80px 0;
+  padding: 10px 20px;
+  border: none; }
+  #boton p {
+    font-size: 14px;
+    margin-bottom: 0;
+    color: #212121;
+    text-transform: uppercase;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500; }
+  #boton:hover {
+    background: #FFEB3B; }
+
+.creditoAPI {
+  margin-top: 200px; }
+  .creditoAPI a {
+    font-size: 10px; }
+
+.fondo, .clearNight, .clearDay, .rain, .wind, .fog, .cloudy, .partlyCloudyDay, .partlyCloudyNight {
+  background: #1976D2;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+.clearNight {
+  background-image: url("https://image.ibb.co/fFXi2a/nochedespejado.jpg"); }
+
+.clearDay {
+  background-image: url("https://image.ibb.co/m5i4av/despejado.jpg"); }
+
+.rain {
+  background-image: url("https://image.ibb.co/bHQd2a/rain.jpg"); }
+
+.wind {
+  background-image: url("https://image.ibb.co/kRLp8F/wind.jpg"); }
+
+.fog {
+  background-image: url("https://image.ibb.co/kdsQha/fog.jpg"); }
+
+.cloudy {
+  background-image: url("https://image.ibb.co/j2OFha/cloudy.jpg"); }
+
+.partlyCloudyDay {
+  background-image: url("https://image.ibb.co/jjGkha/pcloudly.jpg"); }
+
+.partlyCloudyNight {
+  background-image: url("https://image.ibb.co/dmOWNa/pcloudlyn.jpg"); }
+
+#icono {
+  color: #FFFFFF;
+  font-size: 180px; }
+
+/*# sourceMappingURL=style.css.map */

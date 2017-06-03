@@ -1,0 +1,103 @@
+@import "https://fonts.googleapis.com/css?family=Quicksand:300,500|Raleway:700";
+@import "variables";
+
+* {
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 45px;
+    margin: 40px 0 10px 0;
+    color: $text-primary-color;
+    padding: 0 20px 0 20px;
+    font-family: $fuente1;
+    font-weight: 300;
+}
+#clima, #tempC, #tempF {
+    color: white;
+    font-size: 30px;
+    font-family: $fuente2;
+    font-weight: 900;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+#tempF, #degC {
+    display: none;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+#boton {
+    margin: 70px 0 80px 0;
+    padding: 10px 20px;
+    border: none;
+    p {
+        font-size: 14px;
+        margin-bottom: 0;
+        color: $primary-text-color;
+        text-transform: uppercase;
+        font-family: $fuente1;
+        font-weight: 500;
+    }
+    &:hover {
+        background: $accent-color;
+    }
+}
+
+.creditoAPI {
+    margin-top: 200px;
+    a {
+        font-size: 10px;
+    }
+}
+
+.fondo {
+    background: #1976D2;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.clearNight {
+    @extend .fondo;
+    background-image: url("https://image.ibb.co/fFXi2a/nochedespejado.jpg");
+}
+
+.clearDay {
+    @extend .fondo;
+    background-image: url("https://image.ibb.co/m5i4av/despejado.jpg");
+}
+
+.rain {
+    @extend .fondo;
+    background-image: url("https://image.ibb.co/bHQd2a/rain.jpg");
+}
+
+.wind {
+    @extend .fondo;
+    background-image: url("https://image.ibb.co/kRLp8F/wind.jpg");
+}
+
+.fog {
+    @extend .fondo;
+    background-image: url("https://image.ibb.co/kdsQha/fog.jpg");
+}
+
+.cloudy {
+    @extend .fondo;
+    background-image: url("https://image.ibb.co/j2OFha/cloudy.jpg");
+}
+
+.partlyCloudyDay {
+    @extend .fondo;
+    background-image: url("https://image.ibb.co/jjGkha/pcloudly.jpg");
+}
+
+.partlyCloudyNight {
+    @extend .fondo;
+    background-image: url("https://image.ibb.co/dmOWNa/pcloudlyn.jpg");
+} 
+
+#icono {
+    color: $text-primary-color;
+    font-size: 180px;
+}
