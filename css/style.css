@@ -19,8 +19,7 @@ h1 {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); }
 
 #tempF, #degC {
-  display: none;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); }
+  display: none; }
 
 #boton {
   margin: 70px 0 80px 0;
